@@ -171,11 +171,12 @@ const config = {
     "db"
   ],
   "activeProvider": "mysql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "mysql://avnadmin:AVNS_WerpHtNqFh2lrncbimt@mysql-6a28c51-sau-af57.k.aivencloud.com:13486/sau_kinkun_db?ssl-mode=REQUIRED"
+        "value": null
       }
     }
   },

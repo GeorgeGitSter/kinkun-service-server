@@ -1,3 +1,4 @@
+//endpoint คือ วิธีเรียกใช้ API
 //คำสั่งที่ใช้ในการกำหนดเส้นทางในการเรียกใช้ API เป็นการกำหนด Endpoint ของ API
 //บอก user ว่าจะเรียกใช้ API ยังไง
 const express = require('express');
